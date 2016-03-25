@@ -9,6 +9,7 @@
   "author": "Aman Chhabra",
   "license": "ISC",
   "dependencies": {
-    "node-telegram-bot-api": "^0.20.1"
+    "node-telegram-bot-api": "^0.20.1",
+    "wolfram": "^0.3.2"
   }
 }
