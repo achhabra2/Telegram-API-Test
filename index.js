@@ -5,7 +5,7 @@ var wolfram = require('wolfram').createClient("U84L4V-YGA62TR3X8");
 var token = config.token;
 // Setup polling way
 var bot = new TelegramBot(token);
-bot.setWebHook('https://vg-telegram-bot.herokuapp.com:443/' + token);
+bot.setWebHook('http://vg-telegram-bot.herokuapp.com:80/' + token);
 
 bot.onText(/\/echo (.+)/, function (msg, match) {
   var fromId = msg.from.id;
